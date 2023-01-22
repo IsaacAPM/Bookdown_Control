@@ -1,0 +1,32 @@
+--- 
+title: "Teoría de Control"
+author: "Isaac Alejandro Pimentel Morales"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+csl: ieee.csl
+link-citations: yes
+github-repo: IsaacAPM/Bookdown_Control
+description: "Este libro contiene el material de apoyo para el curso de Tería de Control que se imparte en el Instituto Tecnológico Autónomo de México"
+---
+
+# Prólogo {-}
+
+Este documento contiene el material de apoyo para el curso de Teoría de Control que se imparte en el Instituto Tecnológico Autónomo de México.
+
+Estas notas son un recopilación, edición y traducción al español del material que se encuentra en otras notas y libros sin fines de lucro con el objetivo de facilitar el aprendizaje de los alumnos. El crédito a sus respectivos autores se encuentra en la sección de referencias.
+
+Este mismo libro ha sido escrito en [R-Markdown](http://rmarkdown.rstudio.com) empleando el paquete [`bookdown`](https://bookdown.org/yihui/bookdown/)  y está disponible en el repositorio Github: [IsaacAPM/Bookdown_Control](https://github.com/IsaacAPM/Bookdown_Control). 
+
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+# funciones auxiliares
+inline <- function(x = "") paste0("`` `r ", x, "` ``")
+inline2 <- function(x = "") paste0("`r ", x, "`")
+```
