@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.11.2)  22 JAN 2023 14:07
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021) (preloaded format=xelatex 2022.11.2)  22 JAN 2023 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**_main.tex
-(./_main.tex
+**bookdown_control.tex
+(./bookdown_control.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-05-07> (/usr/share/texlive/texmf-dist/tex/latex/base
 /book.cls
@@ -459,8 +459,8 @@ Package: amsthm 2020/05/29 v2.20.6
 \c@example=\count321
 \c@exercise=\count322
 \c@hypothesis=\count323
-(./_main.aux)
-\openout1 = `_main.aux'.
+(./bookdown_control.aux)
+\openout1 = `bookdown_control.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
 LaTeX Font Info:    ... okay on input line 139.
@@ -813,7 +813,7 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] [2
 
-] (./_main.toc
+] (./bookdown_control.toc
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
 (Font)              scaled to size 7.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
@@ -832,7 +832,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 3.
 )
 \tf@toc=\write4
-\openout4 = `_main.toc'.
+\openout4 = `bookdown_control.toc'.
 
 [3] [4
 
@@ -862,8 +862,9 @@ Underfull \hbox (badness 2512) in paragraph at lines 196--197
 
  []
 
-File: _main_files/figure-latex/nice-fig-1.pdf Graphic file (type pdf)
-<use _main_files/figure-latex/nice-fig-1.pdf>
+File: bookdown_control_files/figure-latex/nice-fig-1.pdf Graphic file (type pdf
+)
+<use bookdown_control_files/figure-latex/nice-fig-1.pdf>
 [9] [10] [11] [12
 
 ]
@@ -890,20 +891,20 @@ Chapter 5.
 
 ]
 Chapter 6.
-[19] (./_main.bbl [20])
+[19] (./bookdown_control.bbl [20])
 
 Package natbib Warning: There were undefined citations.
 
 [21
 
-] (./_main.aux) ) 
+] (./bookdown_control.aux) ) 
 Here is how much of TeX's memory you used:
  18567 strings out of 476781
- 327529 string characters out of 5822078
- 812437 words of memory out of 6000000
+ 327848 string characters out of 5822078
+ 812481 words of memory out of 6000000
  38415 multiletter control sequences out of 15000+600000
  409921 words of font info for 85 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 85i,8n,121p,510b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 85i,8n,121p,521b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on _main.pdf (21 pages).
+Output written on bookdown_control.pdf (21 pages).
